@@ -1,7 +1,8 @@
 import "./App.css";
 import { LocalizationProvider } from "@mui/lab";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
-import { MuiPicker } from "./components/MuiPicker";
+import { MuiDateRangePicker } from "./components/MuiDateRangePicker";
+// import { MuiPicker } from "./components/MuiPicker";
 // import { MuiLoadingButton } from "./components/MuiLoadingButton";
 // import { MuiProgress } from "./components/MuiProgress";
 // import { MuiSkeleton } from "./components/MuiSkeleton";
@@ -69,7 +70,8 @@ function App() {
         {/* <MuiProgress /> */}
         {/* <MuiSkeleton /> */}
         {/* <MuiLoadingButton /> */}
-        <MuiPicker />
+        {/* <MuiPicker /> */}
+        <MuiDateRangePicker />
       </div>
     </LocalizationProvider>
   );

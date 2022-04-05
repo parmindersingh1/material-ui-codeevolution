@@ -26,7 +26,7 @@ export const MuiPicker = () => {
       />
 
       <TimePicker
-        label="Timee Picker"
+        label="Time Picker"
         renderInput={(params) => <TextField {...params} />}
         value={selectedTime}
         onChange={(newValue) => {
